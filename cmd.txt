@@ -1,0 +1,32 @@
+https://www.youtube.com/watch?v=jgpVdJB2sKQ
+
+#always return in string 
+### basic commands
+
+SET key value
+GET key
+del key
+EXIST key
+KEYS pattern  (for all (*))
+flushall
+expire key seconds
+ttl key
+setex key seconds value
+
+### lists
+lpush key nameofArr value
+lpush key nameofArr value
+lrange nameofArr start stop
+LPOP nameofArr
+RPOP nameofArr
+
+### set
+SADD nameofArr value
+SMEMBERS nameofArr
+SREM nameofArr value
+
+### hashes
+HSET nameofdict key value
+HGET
+HDEL
+HEXISTS
